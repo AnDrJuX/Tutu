@@ -3,7 +3,7 @@ class Route < ActiveRecord::Migration[5.1]
     create_table :routes do |t|
       t.string :title
 
-      t.timestamps null: false
+      t.timestamps
     end
   end
 end
